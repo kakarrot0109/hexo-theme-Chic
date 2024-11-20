@@ -1,103 +1,92 @@
-# Header
-navname: Bentham's Blog
+# 头部
+navname: Kakarrot's Blog
 
-# navigatior items
+# 导航栏项目
 nav:
-  Posts: /archives
-  Categories: /category
-  Tags: /tag
-  About: /about
+  文章: /archives
+  # 分类: /category
+  # 标签: /tag
+  关于: /about
 
-# favicon
+# 网站图标
 favicon: /favicon.ico
 
-# Profile
-nickname: Jeremy Bentham
+# 个人资料
+nickname: Kakarrot
 
-### this variable is MarkDown form.
-description: Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** <br>Fusce eget urna vitae velit *eleifend interdum at ac* nisi.
-avatar: /image/avatar.jpeg
+### 这个变量是 MarkDown 格式。
+description: 我只想事情是它本来该有的那个样子 <br>**I just want things to be what they are supposed to be**
 
-# main menu navigation
-## links key words should not be changed.
-## Complete url after key words.
-## Unused key can be commented out.
+### 头像
+avatar: /image/avatar.jpg
+
+# 主菜单导航
+## 链接关键词不应该被更改。
+## 关键词后接完整的 URL。
+## 未使用的关键词可以被注释掉。
 links:
-  Blog: /archives
-  # Category:
-  # Tags: 
-  # Link:
-  # Resume:
-  # Publish:
-  # Trophy:
-  # Gallery:
+  # 博客: /archives
+  # 分类:
+  # 标签:
+  # 链接:
+  # 简历:
+  # 发布:
+  # 奖杯:
+  # 画廊:
   # RSS:
-  # AliPay:
-  ZhiHu: https://www.zhihu.com/people/sirice
+  # 支付宝:
+  # 知乎:
   # LinkedIn:
   # FaceBook:
   # Twitter:
   # Skype:
-  # CodeSandBox:
-  # CodePen:
-  # Sketch:
-  # Gitlab:
-  # Dribbble:
-  Instagram:
-  Reddit:
-  # YouTube:
-  # QQ:
-  # Weibo:
-  # WeChat:
-  Github: https://github.com/Siricee
 
-# how links show: you have 2 choice--text or icon.
-links_text_enable: false
-links_icon_enable: true
+# 如何显示链接：你有 2 个选择--文本或图标。
+links_text_enable: True
+links_icon_enable: False
 
-# Post page
-## Post_meta
-post_meta_enable: true
+# 文章页面
+## 文章元数据
+post_meta_enable: True
+post_author_enable: True
+post_date_enable: True
+post_category_enable: True
 
-post_author_enable: true
-post_date_enable: true
-post_category_enable: true
-## Post copyright
-post_copyright_enable: true
-
-post_copyright_author_enable: true
-post_copyright_permalink_enable: true
-post_copyright_license_enable: true
+## 文章版权
+post_copyright_enable: False
+post_copyright_author_enable: False
+post_copyright_permalink_enable: False
+post_copyright_license_enable: False
 post_copyright_license_text: Copyright (c) 2019 <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a> LICENSE
-post_copyright_slogan_enable: true
+post_copyright_slogan_enable: False
 post_copyright_slogan_text: Do you believe in <strong>DESTINY</strong>?
-## toc
-post_toc_enable: true
 
-# Page
-page_title_enable: true
+## 目录
+post_toc_enable: True
 
-# Date / Time format
-## Hexo uses Moment.js to parse and display date
-## You can customize the date format as defined in
+# 页面
+page_title_enable: False
+
+# 日期/时间格式
+## Hexo 使用 Moment.js 来解析和显示日期
+## 你可以自定义日期格式，定义在
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: MMMM D, YYYY
-time_format: H:mm:ss
+date_format: YYYY年MM月DD日
+# time_format:
 
-# stylesheets loaded in the <head>
+# 样式表加载在 <head> 中
 stylesheets:
   - /css/style.css
 
-# scripts loaded in the end of the body
+# 脚本加载在 body 末尾
 scripts:
   - /js/script.js
   - /js/tocbot.min.js
     # tscanlin/tocbot: Build a table of contents from headings in an HTML document.
     # https://github.com/tscanlin/tocbot
 
-
-# plugin functions
-## Mathjax: Math Formula Support
+# 插件功能
+## Mathjax：数学公式支持
 ## https://www.mathjax.org
 mathjax:
   enable: true
